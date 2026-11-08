@@ -153,7 +153,7 @@ footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-si
   <div class="grain"></div>
   <div class="flow" id="flow"></div>
 
-  <div class="ck">CDSS · <b>Hematología perinatal</b> · v1.1</div>
+  <div class="ck">CDSS · <b>Hematología perinatal</b> · v1.2</div>
 
   <div class="stage">
     <svg viewBox="0 0 400 400" aria-hidden="true">
@@ -724,35 +724,49 @@ footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-si
     <div class="reveal" id="r5">Anemia tardía hiporregenerativa: anticuerpo materno persistente que destruye precursores, eritrocitos adultos transfundidos que suprimen la eritropoyetina. Transfundir (sintomático), control de Hb y reticulocitos seriado hasta la recuperación; ácido fólico; eritropoyetina según protocolo.</div>
   </div>
 
-  <div class="card"><b>Caso 6 · “No hay incompatibilidad”</b>
-    <p>RN de término en sus primeros días. Madre B Rh(D)+, RN B Rh(D)+. La bilirrubina no alcanza el umbral de fototerapia. Hb 14.7 g/dL, reticulocitos 8.4 %, <b>Coombs directo positivo en la bebé</b>. El residente concluye: “no hay incompatibilidad de grupo ni Rh, pero sí anticuerpos maternos”. Al revisar, <b>la madre también tiene Coombs directo positivo</b>.</p>
-    <p><i>¿Es cierto que no hay incompatibilidad? ¿Qué significa el Coombs directo positivo de la madre? ¿Es tranquilizadora una Hb de 14.7? ¿Qué pide y cómo sigue a la bebé?</i></p>
-    <button class="btn ghost" data-r="r6">Ver respuesta</button>
-    <div class="reveal" id="r6">
-      <p style="margin-top:0"><b>1. “Rh+” solo significa antígeno D.</b> Una madre D+ puede producir anti-c, anti-E, anti-C, anti-Kell, anti-Duffy o anti-Kidd contra un hijo que tenga esos antígenos. Anti-c y anti-Kell pueden causar enfermedad hemolítica grave aunque el grupo y el D coincidan. Que el grupo y el D sean iguales no descarta la aloinmunización.</p>
-      <p><b>2. Coombs directo positivo en la madre</b> = sus propios eritrocitos están recubiertos de IgG. Lo más probable es un <b>autoanticuerpo materno</b> que cruzó la placenta (fila “Madre con AHAI / LES” del motor diagnóstico). Preguntar por:</p>
+  <div class="card"><b>Caso 6 · “No hay incompatibilidad” (caso real, en tres actos)</b>
+    <p><b>Acto 1.</b> RN de término en sus primeros días. Madre B Rh(D)+, RN B Rh(D)+. La bilirrubina no alcanza el umbral de fototerapia. Hb 14.7 g/dL, reticulocitos 8.4 %, <b>Coombs directo positivo en la bebé</b>. La residente concluye: “no hay incompatibilidad de grupo ni Rh, pero sí anticuerpos maternos”. Se informa además que la madre tiene “Coombs directo positivo”.</p>
+    <p><i>¿Es cierto que no hay incompatibilidad? ¿Es tranquilizadora una Hb de 14.7 con bilirrubina baja? ¿Qué pide?</i></p>
+    <button class="btn ghost" data-r="r6a">Ver discusión</button>
+    <div class="reveal" id="r6a">
+      <p style="margin-top:0"><b>“Rh+” solo significa antígeno D.</b> Una madre D+ puede producir anti-c, anti-E, anti-C, anti-Kell, anti-Duffy o anti-Kidd contra un hijo que tenga esos antígenos. Que el grupo y el D coincidan <u>no descarta</u> la enfermedad hemolítica inmune.</p>
+      <p><b>La Hb no tranquiliza.</b> Con reticulocitos de 8.4 % hay hemólisis, y en las primeras 72 h de un RN de término 14.7 está claramente por debajo de la media (17–18 g/dL).</p>
+      <p><b>Un Coombs directo positivo en la madre</b> haría pensar en un autoanticuerpo materno que cruza la placenta (alfametildopa, anemia hemolítica autoinmune, lupus) o en una transfusión reciente.</p>
+      <p style="margin-bottom:0"><b>Lo que se pide:</b> rastreo e identificación de anticuerpos irregulares en la madre (con autoadsorción si el Coombs directo materno es real), elución de los eritrocitos de la bebé, fenotipo extendido (C, c, E, e, K) de ambas y frotis. Mientras tanto, graficar la bilirrubina en las curvas de la AAP 2022 <b>con</b> factor de riesgo.</p>
+    </div>
+
+    <p style="margin-top:14px"><b>Acto 2 · El banco de sangre.</b> Alerta del banco: <span class="mono">rastreo de anticuerpos: célula III positiva · anticuerpo identificado: <b>anti-K</b></span>.</p>
+    <p><i>¿Cambia el diagnóstico? ¿Qué no cuadra todavía?</i></p>
+    <button class="btn ghost" data-r="r6b">Ver discusión</button>
+    <div class="reveal" id="r6b">
+      <p style="margin-top:0"><b>Es una aloinmunización anti-Kell</b>, no un autoanticuerpo. La primera hipótesis razonable (autoanticuerpo por el Coombs materno) era incorrecta: el banco de sangre resolvió el caso.</p>
+      <p><b>Lo que no cuadra es el Coombs directo positivo de la madre.</b> Un anti-K no recubre los eritrocitos de una madre K-negativa (~91 % de la población). Hay tres explicaciones:</p>
       <ul>
-        <li><b>Alfametildopa</b>, el antihipertensivo de primera línea en el embarazo. Tras meses de uso induce Coombs directo positivo en ~10–20 % de las pacientes; la hemólisis real es rara. Se han descrito RN con Coombs directo positivo hijos de madres tratadas.</li>
-        <li>Anemia hemolítica autoinmune, lupus o síndrome antifosfolípido. Si hay lupus con anti-Ro, buscar lupus neonatal en la bebé (ECG por bloqueo cardiaco, lesiones cutáneas, citopenias).</li>
-        <li>Transfusiones previas: una reacción tardía con aloanticuerpo también deja el Coombs directo positivo.</li>
+        <li><b>Transfusión reciente con sangre K+</b> (embarazo, parto o cesárea, en los últimos ~3 meses): los glóbulos transfundidos quedan recubiertos. Además, la transfusión es la vía más común de sensibilización a Kell, así que hay que preguntar siempre por transfusiones previas.</li>
+        <li>Lo reportado como “Coombs directo +” era en realidad el <b>indirecto</b>, que coincide con este rastreo. Es una confusión frecuente; aclararla con el laboratorio.</li>
+        <li>Un autoanticuerpo coexistente, que es lo menos probable.</li>
       </ul>
-      <p><b>3. Laboratorio que resuelve el caso:</b></p>
+      <p style="margin-bottom:0"><b>Para confirmar que el anti-K es el que hemoliza a la bebé:</b> tipificar el antígeno K en la bebé (con Coombs directo positivo puede requerir reactivo monoclonal o retirar la IgG de las células), hacer la elución (si recupera anti-K, queda confirmado) y medir el título materno. Si la bebé fuera K-negativa, el anti-K no explicaría su Coombs y habría que seguir buscando.</p>
+    </div>
+
+    <p style="margin-top:14px"><b>Acto 3 · El seguimiento.</b> La bilirrubina sigue sin requerir fototerapia y la bebé come bien.</p>
+    <p><i>¿Se puede dar de alta con un control de rutina?</i></p>
+    <button class="btn ghost" data-r="r6c">Ver discusión</button>
+    <div class="reveal" id="r6c">
+      <p style="margin-top:0"><b>No con un control de rutina.</b> El antígeno Kell está en los progenitores eritroides tempranos: el anti-K <b>suprime la eritropoyesis</b> además de hemolizar. Por eso hay más anemia y menos bilirrubina de lo esperado, y <b>la bilirrubina baja no mide la gravedad</b>.</p>
       <ul>
-        <li><b>Elución</b> de los eritrocitos de la bebé con identificación del anticuerpo. Panreactivo apunta a autoanticuerpo; con especificidad (anti-c, anti-E, anti-K…) es aloinmunización.</li>
-        <li>En la madre: rastreo de anticuerpos irregulares con <b>autoadsorción</b>, porque el autoanticuerpo puede enmascarar un aloanticuerpo.</li>
-        <li>Fenotipo extendido (C, c, E, e, K) de madre y bebé; frotis buscando esferocitos; LDH; G6PD si hay ascendencia de riesgo, por si una segunda causa de hemólisis se suma.</li>
-      </ul>
-      <p><b>4. La Hb de 14.7 no tranquiliza.</b> Con reticulocitos de 8.4 % es una <b>hemólisis compensada</b>. En las primeras 72 h de un RN de término, 14.7 está claramente por debajo de la media (17–18 g/dL). Interpretar según las horas de vida, la EG y si la muestra fue capilar.</p>
-      <p><b>5. Bilirrubina:</b> el Coombs directo positivo con hemólisis es <b>factor de riesgo de neurotoxicidad (AAP 2022)</b>. Graficar en las curvas <i>con</i> factor de riesgo, que tienen umbrales más bajos, y vigilar la velocidad de ascenso, no solo el valor puntual.</p>
-      <p><b>6. Plan de seguimiento:</b></p>
-      <ul>
-        <li>Bilirrubina cada 8–12 h hasta que la curva se estabilice (más seguido si se acerca al umbral).</li>
-        <li>Hb y reticulocitos a las 24–48 h y al alta. Luego a las 2 y a las 4–6 semanas por <b>anemia tardía</b>: la IgG materna persiste semanas, con vida media de 3–4.</li>
-        <li>Avisar al banco de sangre: con un autoanticuerpo panreactivo las pruebas cruzadas pueden salir incompatibles si alguna vez se necesita transfundir.</li>
+        <li>El riesgo real es la <b>anemia tardía hiporregenerativa</b>: reticulocitos que caen en las semanas siguientes. Hb y reticulocitos <b>semanales durante 6–8 semanas</b>, vigilando alimentación, taquicardia y palidez.</li>
+        <li>Bilirrubina en las curvas de la AAP 2022 con factor de riesgo, porque es enfermedad hemolítica isoinmune.</li>
+        <li>Si necesita transfusión: concentrado <b>K-negativo</b>, compatible con el suero materno, irradiado y leucorreducido. El banco debe dejarlo registrado.</li>
         <li>La lactancia continúa sin cambios.</li>
-        <li>Referir a la madre a ginecología o medicina interna para su propia evaluación: Hb, reticulocitos, bilirrubina, LDH, haptoglobina y ANA según la clínica.</li>
       </ul>
-      <p style="margin-bottom:0" class="small">Enseñanza: “sin incompatibilidad ABO ni D” no es lo mismo que “sin enfermedad hemolítica inmune”. El Coombs de la madre convierte un hallazgo del RN en un diagnóstico de dos pacientes.</p>
+      <p><b>Para la madre:</b></p>
+      <ul>
+        <li>Tarjeta de alerta: toda transfusión futura debe ser K-negativa.</li>
+        <li><b>Próximo embarazo de alto riesgo.</b> En Kell el título crítico es más bajo (8 en lugar de 16) porque predice mal la anemia fetal. Seguimiento por medicina materno-fetal con Doppler de la arteria cerebral media.</li>
+        <li>Tipificar Kell al padre. La mayoría de los K+ son heterocigotos: en ese caso cada embarazo tiene 50 % de riesgo, y el genotipo fetal puede conocerse por ADN fetal libre en sangre materna donde esté disponible.</li>
+      </ul>
+      <p style="margin-bottom:0" class="small"><b>Enseñanzas:</b> (1) “sin incompatibilidad ABO ni D” no es lo mismo que “sin enfermedad hemolítica inmune”; (2) un Coombs directo positivo exige identificar el anticuerpo, no solo nombrarlo; (3) en anti-Kell, la bilirrubina engaña: se sigue la hemoglobina y los reticulocitos.</p>
     </div>
   </div>
 </section>
@@ -821,7 +835,7 @@ footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-si
 <footer>
   <b>Dr. Jano Jaramillo</b> — Médico Pediatra y Neonatólogo · Posgrado en Trastornos del Aprendizaje<br>
   Sala de Neonatología · Hospital Dr. Cecilio Castillero · Chitré, Panamá<br>
-  CDSS Anemia Neonatal v1.1 · noviembre 2026 · funciona sin conexión
+  CDSS Anemia Neonatal v1.2 · noviembre 2026 · funciona sin conexión
 </footer>
 </main>
 
