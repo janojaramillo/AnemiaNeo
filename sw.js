@@ -1,7 +1,7 @@
 /* CDSS Anemia Neonatal · service worker
    Funciona sin conexión: guarda la app en caché al instalar y sirve primero desde caché.
    Para publicar una versión nueva, cambie VERSION. */
-const VERSION = 'anemia-neo-v1.0.0';
+const VERSION = 'anemia-neo-v1.1.0';
 const CORE = ['./', './index.html', './sw.js'];
 
 self.addEventListener('install', event => {
